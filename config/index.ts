@@ -38,4 +38,7 @@ export const siteConfig: Metadata = {
     name: "Anand Mohan Dubey",
     url: "https://github.com/anandmohandubey",
   },
+  verification: {
+    google: "odbBZqp6YKVIJWL7Cgh3Sa4cybumuw0F2S9dxhtg1Vw",
+  },
 } as const;
