@@ -48,10 +48,8 @@ Here is the folder structure of this app.
 space-portfolio/
   |- app/
     |-- apple-icon.png
-    |-- favicon.ico
     |-- globals.css
-    |-- icon1.png
-    |-- icon2.png
+    |-- icon.png
     |-- layout.tsx
     |-- page.tsx
   |- components/
@@ -67,6 +65,7 @@ space-portfolio/
   |- public/
   |- .eslintrc.json
   |- .gitignore
+  |- create-herobg.js
   |- eslint.config.mjs
   |- netlify.toml
   |- next.config.js
