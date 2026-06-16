@@ -26,8 +26,8 @@ export const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto">
-        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
+      <div className="flex flex-col items-center justify-center translate-y-[-50px] md:translate-y-[-50px] absolute z-[20] w-auto h-auto">
+        <div className="flex flex-col items-center group cursor-pointer w-auto h-auto mt-20 md:mt-0">
           <Image
             src="/lock-top.png"
             alt="Lock top"

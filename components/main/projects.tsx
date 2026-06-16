@@ -27,7 +27,7 @@ export const Projects = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.1 }}
         variants={slideInFromTop}
-        className="h-full w-full flex flex-col md:flex-row gap-10 px-10"
+        className="h-full w-full flex flex-wrap justify-center gap-10 px-5 md:px-10"
       >
         {PROJECTS.map((project) => (
           <ProjectCard
