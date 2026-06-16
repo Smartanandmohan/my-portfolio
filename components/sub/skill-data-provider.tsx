@@ -38,8 +38,13 @@ export const SkillDataProvider = ({
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
+      className="group relative flex flex-col items-center justify-center cursor-pointer hover:z-[100]"
+      title={name}
     >
-      <Image src={`/skills/${src}`} width={width} height={height} alt={name} />
+      <Image src={`/skills/${src}`} width={width} height={height} alt={name} className="group-hover:scale-110 transition-transform duration-300 mb-2 w-auto h-auto" />
+      <span className="text-cyan-400 text-sm font-semibold whitespace-nowrap text-center">
+        {name}
+      </span>
     </motion.div>
   );
 };
