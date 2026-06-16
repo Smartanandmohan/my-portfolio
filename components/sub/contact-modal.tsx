@@ -26,7 +26,7 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-[90%] max-w-[400px] rounded-2xl border border-cyan-500/30 bg-[#030014]/90 p-6 shadow-[0_0_40px_rgba(6,182,212,0.15)] overflow-hidden"
+            className="relative w-[90%] max-w-[400px] max-h-[90vh] rounded-2xl border border-cyan-500/30 bg-[#030014]/90 p-6 shadow-[0_0_40px_rgba(6,182,212,0.15)] overflow-y-auto"
           >
             {/* Close Button */}
             <button

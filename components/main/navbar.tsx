@@ -71,7 +71,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="absolute top-[65px] left-0 w-full bg-[#030014] p-5 flex flex-col items-center text-gray-300 md:hidden">
+        <div className="absolute top-[65px] left-0 w-full bg-[#030014] p-5 flex flex-col items-center text-gray-300 md:hidden max-h-[calc(100vh-65px)] overflow-y-auto">
           {/* Links */}
           <div className="flex flex-col items-center gap-4">
             {NAV_LINKS.map((link) => (

@@ -11,7 +11,7 @@ export const Encryption = () => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.5 }}
-      className="flex flex-row relative items-center justify-center min-h-screen w-full h-full -z-20"
+      className="flex flex-row relative items-center justify-center min-h-[500px] md:min-h-screen w-full h-full -z-20"
     >
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
