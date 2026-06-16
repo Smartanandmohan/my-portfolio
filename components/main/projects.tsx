@@ -18,7 +18,7 @@ export const Projects = () => {
         variants={slideInFromTop}
         className="w-full text-center"
       >
-        <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        <h2 className="text-3xl md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
           My Projects
         </h2>
       </motion.div>

@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section
       id="about-me"
-      className="flex flex-col items-center justify-center py-20 z-[20] w-full px-20"
+      className="flex flex-col items-center justify-center py-20 z-[20] w-full px-5 md:px-20"
     >
       <div className="max-w-[1200px] w-full flex flex-col gap-16">
         {/* Top Row: About & Personal Statement */}
@@ -19,7 +19,7 @@ export const About = () => {
             variants={slideInFromLeft(0.5)}
             className="flex-1 flex flex-col gap-5 text-start"
           >
-            <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+            <h2 className="text-3xl md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
               About Me
             </h2>
             <p className="text-lg text-gray-400">

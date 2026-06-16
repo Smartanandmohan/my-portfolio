@@ -17,8 +17,8 @@ export const Services = () => {
   ];
 
   return (
-    <section id="services" className="flex flex-col items-center justify-center py-20 z-[20] w-full px-20">
-      <h2 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 mb-10">
+    <section id="services" className="flex flex-col items-center justify-center py-20 z-[20] w-full px-5 md:px-20">
+      <h2 className="text-3xl md:text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600 mb-10 text-center">
         Services & Expertise
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-[1200px]">
