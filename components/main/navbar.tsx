@@ -19,7 +19,7 @@ export const Navbar = () => {
         >
           <Image
             src="/brand-logo.png"
-            alt="Logo"
+            alt="Anand Mohan Dubey Portfolio Logo"
             width={45}
             height={45}
             draggable={false}

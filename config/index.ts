@@ -9,6 +9,12 @@ export const siteConfig: Metadata = {
   description: "Anand Mohan Dubey is a Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies. Explore my portfolio of premium web applications.",
   keywords: [
     "Anand Mohan Dubey",
+    "Anand Mohan Dubey IIT Bombay",
+    "Anand Mohan Dubey IIT Patna",
+    "Anand Mohan Dubey Developer",
+    "Anand Mohan Dubey Portfolio",
+    "Anand Mohan",
+    "Anand Dubey",
     "Full Stack Developer",
     "React Developer",
     "Next.js Developer",

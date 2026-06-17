@@ -23,7 +23,7 @@ export const ProjectCard = ({
     >
       <Image
         src={src}
-        alt={title}
+        alt={`${title} - Project by Anand Mohan Dubey`}
         width={1000}
         height={1000}
         className="w-full object-contain"

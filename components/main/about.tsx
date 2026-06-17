@@ -23,7 +23,7 @@ export const About = () => {
               About Me
             </h2>
             <p className="text-lg text-gray-400">
-              I am a Software Developer passionate about building modern web applications, mobile apps, SaaS platforms, AI-powered products, and interactive digital experiences. My focus is on creating scalable, high-performance solutions with clean design, smooth user experiences, and modern technologies.
+              I am <strong>Anand Mohan Dubey</strong>, a Software Developer passionate about building modern web applications, mobile apps, SaaS platforms, AI-powered products, and interactive digital experiences. My focus is on creating scalable, high-performance solutions with clean design, smooth user experiences, and modern technologies.
             </p>
           </motion.div>
 
@@ -53,6 +53,9 @@ export const About = () => {
             className="flex-1 p-5 sm:p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
           >
             <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Education & Training</h3>
+            <p className="text-gray-400 mb-4 text-sm sm:text-base">
+              Anand Mohan Dubey has completed advanced technical education and training programs from premier institutes:
+            </p>
             <ul className="list-disc list-inside text-gray-400 space-y-3">
               <li>Robotics, Coding & Artificial Intelligence Program from IIT Bombay</li>
               <li>Technical Training Camp completed at IIT Patna</li>
