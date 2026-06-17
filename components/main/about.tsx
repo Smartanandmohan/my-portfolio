@@ -9,7 +9,7 @@ export const About = () => {
       id="about-me"
       className="flex flex-col items-center justify-center py-20 z-[20] w-full px-5 md:px-20"
     >
-      <div className="max-w-[1200px] w-full flex flex-col gap-16">
+      <div className="max-w-[1200px] w-full flex flex-col gap-8 md:gap-16">
         {/* Top Row: About & Personal Statement */}
         <div className="flex flex-col md:flex-row gap-10">
           <motion.div
@@ -32,11 +32,11 @@ export const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={slideInFromRight(0.5)}
-            className="flex-1 flex items-center justify-center p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
+            className="flex-1 flex items-center justify-center p-5 sm:p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
           >
             <div className="text-center">
-              <h3 className="text-2xl font-semibold text-white mb-4">Personal Statement</h3>
-              <p className="text-xl italic text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+              <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4">Personal Statement</h3>
+              <p className="text-lg sm:text-xl italic text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
                 "Building modern web applications, mobile apps, AI-powered platforms, and scalable digital products with exceptional user experiences."
               </p>
             </div>
@@ -44,15 +44,15 @@ export const About = () => {
         </div>
 
         {/* Bottom Row: Education & Achievements */}
-        <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10">
           <motion.div
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
             variants={slideInFromTop}
-            className="flex-1 p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
+            className="flex-1 p-5 sm:p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
           >
-            <h3 className="text-2xl font-semibold text-white mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Education & Training</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Education & Training</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-3">
               <li>Robotics, Coding & Artificial Intelligence Program from IIT Bombay</li>
               <li>Technical Training Camp completed at IIT Patna</li>
@@ -65,9 +65,9 @@ export const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={slideInFromTop}
-            className="flex-1 p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
+            className="flex-1 p-5 sm:p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md"
           >
-            <h3 className="text-2xl font-semibold text-white mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Achievements</h3>
+            <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Achievements</h3>
             <ul className="list-disc list-inside text-gray-400 space-y-3">
               <li>Completed Robotics, Coding & Artificial Intelligence Program from IIT Bombay</li>
               <li>Completed Technical Training Camp at IIT Patna</li>

@@ -29,9 +29,9 @@ export const Services = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={slideInFromLeft(0.1 * (idx % 3))}
-            className="p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md hover:border-cyan-400 transition-colors"
+            className="p-5 sm:p-8 border border-cyan-500/30 rounded-2xl bg-[#030014]/50 backdrop-blur-md hover:border-cyan-400 transition-colors"
           >
-            <h3 className="text-2xl font-bold text-white mb-4">{service.title}</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">{service.title}</h3>
             <p className="text-gray-400">{service.description}</p>
           </motion.div>
         ))}
