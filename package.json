@@ -1,5 +1,5 @@
 {
-  "name": "space-portfolio",
+  "name": "my-portfolio",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -9,11 +9,11 @@
     "lint": "eslint ."
   },
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Anand Mohan Dubey",
+    "email": "dubeyanand7255@gmail.com",
+    "url": "https://github.com/Smartanandmohan"
   },
-  "description": "Welcome to my full stack Next.js 14 space portfolio.",
+  "description": "Welcome to my premium 3D Space Theme Portfolio.",
   "keywords": [
     "reactjs",
     "nextjs",
@@ -48,23 +48,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanidhyy/space-portfolioit"
+    "url": "https://github.com/Smartanandmohan/my-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/space-portfolio#readme",
+  "homepage": "https://github.com/Smartanandmohan/my-portfolio#readme",
   "bugs": {
-    "url": "https://github.com/sanidhyy/space-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
+    "url": "https://github.com/Smartanandmohan/my-portfolio/issues",
+    "email": "dubeyanand7255@gmail.com"
   },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
   "dependencies": {
     "@heroicons/react": "^2.2.0",
     "@react-three/drei": "^10.7.7",
