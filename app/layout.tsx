@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import type { PropsWithChildren } from "react";
 
 import { Footer } from "@/components/main/footer";
@@ -86,6 +85,11 @@ export default function RootLayout({ children }: PropsWithChildren) {
     <html lang="en">
       <head>
         <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4013818155159731"
+          crossOrigin="anonymous"
+        />
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
@@ -100,12 +104,6 @@ export default function RootLayout({ children }: PropsWithChildren) {
         <Navbar />
         {children}
         <Footer />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4013818155159731"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
